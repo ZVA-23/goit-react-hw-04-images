@@ -10,7 +10,7 @@ export const fetchApi = (name, page) => {
       key: '29884490-c4f2a5a1c3ab9ada3c3f5649a',
       image_type: 'photo',
       orientation: 'horizontal',
-      perPage: 12,
+      per_page: 12,
     },
   };
   return axios(config);
